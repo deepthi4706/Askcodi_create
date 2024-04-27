@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Time Tales - Historical Fiction and Storytelling Platform</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Time Tales</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Historical Fiction Stories</a>
+        <a href="#">Time Travel Adventures</a>
+        <a href="#">Historical Mysteries</a>
+        <a href="#">Author Interviews</a>
+    </nav>
+</header>
+
+<section class="content">
+    <div class="story">
+        <h2>Story Title</h2>
+        <img src="story_image.jpg" alt="Story Image">
+        <p>Description of the story.</p>
+        <button>Read More</button>
+        <div class="reviews"></div>
+        <textarea placeholder="Add your review"></textarea>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2023 Time Tales</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.story {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.story img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.reviews {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
